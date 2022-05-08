@@ -7,7 +7,6 @@ from diagrams.k8s.podconfig import ConfigMap
 
 with Diagram("XPTO product diagram - K8S", filename="xpto_product_diagram-k8s"):
     with Cluster("Namespace_Xpto"):
-        NS("namespace X")
         local   = Ingress("internal.xpto") >> Service("svc")
         private = Ingress("private.xpto") >> Service ("svc")
         local >> [Pod("pod1"),
