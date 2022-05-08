@@ -50,14 +50,16 @@ $ poetry add diagrams
 ### Exemplos
 
 #### Diagrama de aplicação em Kubernetes
-[exemplo-k8s.py](https://www.example.com)
+**exemplo-k8s.py**
+
 Este código serve como modelo de um caso fictício baseado em um ambiente Kubernetes.
 Neste exemplo foi adicionado alguns serviços interligados na entrega.
 ![XPTO product diagram - K8S](xpto_product_diagram-k8s.png)
 
 
 #### Diagrama de aplicação em AWS
-[exemplo-LB-EC2-RDS-Redis.py](https://www.example.com)
+**exemplo-LB-EC2-RDS-Redis.py**
+
 Este código serve como modelo de um caso fictício baseado em um ambiente AWS.
 Neste exemplo foi adicionado alguns serviços interligados na entrega.
 ![XPTO product diagram - K8S](xpto_product_diagram-aws.png)
